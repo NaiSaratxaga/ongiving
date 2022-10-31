@@ -6,55 +6,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Naiara Saratxaga" />
-    <meta name="description" content="Esta es la solucion de una prueba tecnica" />
+    <meta name="description" content="This is the solution of a technical test" />
     <title>Ongiving</title>
+    <!-- favicon -->
     <link rel="icon" type="image/svg" sizes="32x32" href="./images/logo.svg">
-
+    <!-- styles -->
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/efi3wpw.css">
+
 </head>
 
 <body>
 
     <head>
-        <img src="./images/logo.svg" alt="logo">
-        <nav>
-            <ul class="nav-bar">
-                <li>Encuentra tu causa</li>
-                <li>Descubre</li>
-                <li>Voluntariado</li>
-                <li>ONGiving</li>
-                <li>(lupa)</li>
-                <li>Accede</li>
-                <button>Registrate</button>
-            </ul>
-        </nav>
+        <div class="menu__container">
+            <img src="./images/logo.svg" alt="logo">
+            <img src="./images/burguer.png" alt="menu burguer mobile" class="menu-mobile">
+        </div>
     </head>
     <main>
-        <section>
+        <nav class="menu__nav--expanded">
+            <ul class="menu__nav--items">
+                <li>
+                    <a href="#">Encuentra tu causa</a>
+                </li>
+                <li>
+                    <a href="#">Descubre</a>
+                </li>
+                <li>
+                    <a href="#">Voluntariado</a>
+                </li>
+                <li>
+                    <a href="#">ONGiving</a>
+                </li>
+                <li>
+                    <a href="#">Lupa</a>
+                </li>
+                <li>
+                    <a href="#">Accede</a>
+                </li>
+            </ul>
+            <button>Registrate</button>
+        </nav>
+
+
+        <!--      <section>
             <div>
                 <p>Descubre</p>
                 <h1>Empresas</h1>
                 <p>Eres una empresa? Registrate</p>
             </div>
             <img src="./images/hero.png" alt="hero">
-        </section>
+        </section> -->
         <section>
-            <p>87 Resultados</p>
-            <p>Ordenar por:Relevancia</p>
-            <div class="card">
-                <img src="./images/sarlim.png" alt="">
-                <h2>Sarlim Servicios integrales</h2>
-                <p>Organización de acción médico-humanitaria: asistimos a personas amenazadas por conflictos armados,
-                    violencia o enfermedades.</p>
-                <p>linea</p>
-                <p>234 Donaciones</p>
-                <p>1.256.353 ¢ Donado</p>
-            </div>
+            <p>Buscar una ONG o Institución</p>
+            <p>Filtrar</p>
         </section>
+        <article>
+            <p>87 Resultados</p>
+            <p>Destacados > </p>
+            <section>
+                <div class="container-cards">
+                    <div class="card-style">
+                        <img src="./images/sarlim.png" alt="Logo Sarlim">
+                    </div>
+                    <h2 class="card-title">SARLIM Servicios integrales</h2>
+                    <p class="card-text">Organización de acción médico-humanitaria: asistimos a personas amenazadas por
+                        conflictos
+                        armados,
+                        violencia o enfermedades.</p>
+                    <p>linea</p>
+                    <p>234 Donaciones</p>
+                    <p>1.256.353 ¢ Donado</p>
+
+                </div>
+            </section>
+        </article>
     </main>
     <footer class="footer">
-        <img src="./images/logo.svg" alt="logo">
+        <div class="logo">
+            <img src="./images/logo_footer.svg" alt="logo">
+        </div>
+
         <ul>
             <li>ÚNETE</li>
             <li>Soy una ONG</li>
@@ -84,7 +119,7 @@
         <p>line</p>
         <span>©ONGiving 2022. Todos los derechos reservados.</span>
         <img src="./images/facebook.png" alt="icon facebook">
-        <img src="./images/facebook.png" alt="icon facebook">
+        <img src="./images/tuiter.svg" alt="icon twiter">
         <img src="./images/facebook.png" alt="icon facebook">
     </footer>
 </body>
