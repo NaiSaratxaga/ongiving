@@ -6,7 +6,7 @@
 
 ### DEMO proyecto
 
-## https://user-images.githubusercontent.com/99652446/167273373-e8ce8e6d-0b5b-4b97-98f7-36287513fc3f.mp4
+## https://github.com/NaiSaratxaga/ongiving/blob/main/ongiving.mov
 
 ## 🚀 Descripción del proyecto:
 
