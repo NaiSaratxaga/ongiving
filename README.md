@@ -6,7 +6,11 @@
 
 ### DEMO proyecto
 
-## https://github.com/NaiSaratxaga/ongiving/blob/main/ongiving.mov
+## 
+
+https://user-images.githubusercontent.com/99652446/199357367-4f4a62f0-4833-4f61-9586-9dd95ae7c8bd.mp4
+
+
 
 ## 🚀 Descripción del proyecto:
 
@@ -29,7 +33,7 @@
 - CSS Grid
 - Mobile-first workflow
 
-## Author
+## Autora
 
 - Linkedin - [Naiara Saratxaga](https://www.linkedin.com/in/naiara-saratxaga-17abb030/)
 - GitHub - [NaiSaratxaga](https://github.com/NaiSaratxaga)
