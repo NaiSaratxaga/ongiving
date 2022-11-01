@@ -18,10 +18,17 @@
 
 <body>
     <header class="header-container">
+        <div class="header-placeholder"></div>
         <img class="header-icon" src="./images/logo.svg" title="Logotipo de Ongiving" alt="Logotipo de Ongiving">
-        <img class="header-menu" src="./images/menu.svg" title="Menú" alt="Menú">
+        <div class="header-actions">
+            <img class="header-search" src="./images/search.png" title="Buscar" alt="Buscar">
+            <img class="header-menu" src="./images/menu.svg" title="Menú" alt="Menú">
+        </div>
     </header>
 
+    <div class="hero">
+        <h2 class="hero-title">Empresas</h2>
+    </div>
     <main class="main-container">
         <!--Summary-->
         <section class="main-summary">
@@ -29,159 +36,193 @@
             <p class="summary-featured">Destacados <img src="./images/anchor.svg"></p>
         </section>
         <!--Cards-->
-        <!--Sarlim-->
-        <article class="card">
-            <div class="card-image-container">
-                <img class="card-image" src="./images/logos/sarlim.png" title="Logotipo de Sarlim"
-                    alt="Logotipo de Sarlim">
-            </div>
-            <div class="card-info-container">
-                <h2 class="card-title">
-                    SARLIM Servicios integrales
-                </h2>
-                <h3 class="card-description">
-                    Organización de acción médico-humanitaria: asistimos a personas amenazadas por conflictos armados.
-                </h3>
-                <div class="card-number-container">
-                    <div>
-                        <h3>
-                            234
-                        </h3>
-                        <p>Donaciones</p>
-                    </div>
-
-                    <div>
-                        <h3>
-                            1.256.353 €
-                        </h3>
-                        <p>Donado</p>
-                    </div>
+        <div class="cards-container">
+            <!--Sarlim-->
+            <article class="card">
+                <div class="card-image-container">
+                    <img class="card-image" src="./images/logos/sarlim.png" title="Logotipo de Sarlim"
+                        alt="Logotipo de Sarlim">
                 </div>
-            </div>
-        </article>
-        <!--d.nest-->
-        <article class="card">
-            <div class="card-image-container">
-                <img class="card-image" src="./images/logos/dnest.svg" title="Logotipo de Sarlim"
-                    alt="Logotipo de Sarlim">
-            </div>
-            <div class="card-info-container">
-                <h2 class="card-title">
-                    DNest Digital Agency
-                </h2>
-                <h3 class="card-description">
-                    Organización de acción médico-humanitaria: asistimos a personas amenazadas por conflictos armados,
-                    violencia o enfermedades.
-                </h3>
-                <div class="card-number-container">
-                    <div>
-                        <h3>
-                            234
-                        </h3>
-                        <p>Donaciones</p>
-                    </div>
-
-                    <div>
-                        <h3>
-                            1.256.353 €
-                        </h3>
-                        <p>Donado</p>
-                    </div>
-                </div>
-            </div>
-        </article>
-        <!--Repsol-->
-        <article class="card">
-            <div class="card-image-container">
-                <img class="card-image" src="./images/logos/repsol.png" title="Logotipo de Sarlim"
-                    alt="Logotipo de Sarlim">
-            </div>
-            <div class="card-info-container">
-                <h2 class="card-title">
-                    Repsol
-                </h2>
-                <h3 class="card-description">
-                    Organización de acción médico-humanitaria: asistimos a personas amenazadas por conflictos armados,
-                    violencia o enfermedades.
-                </h3>
-                <div class="card-number-container">
-                    <div>
-                        <h3>
-                            234
-                        </h3>
-                        <p>Donaciones</p>
-                    </div>
-
-                    <div>
-                        <h3>
-                            1.256.353 €
-                        </h3>
-                        <p>Donado</p>
-                    </div>
-                </div>
-            </div>
-        </article>
-        <!--Julsa-->
-        <article class="card">
-            <div class="card-image-container">
-                <img class="card-image" src="./images/logos/julsa.png" title="Logotipo de Sarlim"
-                    alt="Logotipo de Sarlim">
-            </div>
-            <div class="card-info-container">
-                <h2 class="card-title">
-                    Julsa
-                </h2>
-                <h3 class="card-description">
-                    Organización de acción médico-humanitaria: asistimos a personas amenazadas por conflictos armados,
-                    violencia o enfermedades.
-                </h3>
-                <div class="card-number-container">
-                    <div>
-                        <h3>
-                            234
-                        </h3>
-                        <p>Donaciones</p>
-                    </div>
-
-                    <div>
-                        <h3>
-                            1.256.353 €
-                        </h3>
-                        <p>Donado</p>
-                    </div>
-                </div>
-            </div>
-        </article>
-        <!--placeholder-->
-        <article class="card">
-            <div class="card-image-container">
-            </div>
-            <div class="card-info-container">
-                <div class="empty-card-title">
-                </div>
-                <div class="empty-card-description-row">
-                </div>
-                <div class="empty-card-description-row">
-                </div>
-                <div class="empty-card-description-half-row">
-                </div>
-                <div class="empty-separator"></div>
-                <div class="card-number-container empty-card-number-container">
-                    <div class="empty-donations-container">
-                        <div class="empty-donations-number">
+                <div class="card-info-container">
+                    <h2 class="card-title">
+                        SARLIM Servicios integrales
+                    </h2>
+                    <h3 class="card-description">
+                        Organización de acción médico-humanitaria: asistimos a personas amenazadas por conflictos
+                        armados.
+                    </h3>
+                    <div class="card-number-container">
+                        <div>
+                            <h3>
+                                234
+                            </h3>
+                            <p>Donaciones</p>
                         </div>
-                        <div class="empty-donations-number-title">
-                        </div>
-                    </div>
-                    <div class="empty-donations-container">
-                        <div class="empty-donations-amount">
-                        </div>
-                        <div class="empty-donations-amount-title">
+
+                        <div>
+                            <h3>
+                                1.256.353 €
+                            </h3>
+                            <p>Donado</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </article>
+            </article>
+            <!--d.nest-->
+            <article class="card">
+                <div class="card-image-container">
+                    <img class="card-image" src="./images/logos/dnest.svg" title="Logotipo de Sarlim"
+                        alt="Logotipo de Sarlim">
+                </div>
+                <div class="card-info-container">
+                    <h2 class="card-title">
+                        DNest Digital Agency
+                    </h2>
+                    <h3 class="card-description">
+                        Organización de acción médico-humanitaria: asistimos a personas amenazadas por conflictos
+                        armados, violencia o enfermedades.
+                    </h3>
+                    <div class="card-number-container">
+                        <div>
+                            <h3>
+                                234
+                            </h3>
+                            <p>Donaciones</p>
+                        </div>
+
+                        <div>
+                            <h3>
+                                1.256.353 €
+                            </h3>
+                            <p>Donado</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--Repsol-->
+            <article class="card">
+                <div class="card-image-container">
+                    <img class="card-image" src="./images/logos/repsol.png" title="Logotipo de Sarlim"
+                        alt="Logotipo de Sarlim">
+                </div>
+                <div class="card-info-container">
+                    <h2 class="card-title">
+                        Repsol
+                    </h2>
+                    <h3 class="card-description">
+                        Organización de acción médico-humanitaria: asistimos a personas amenazadas por conflictos
+                        armados, violencia o enfermedades.
+                    </h3>
+                    <div class="card-number-container">
+                        <div>
+                            <h3>
+                                234
+                            </h3>
+                            <p>Donaciones</p>
+                        </div>
+
+                        <div>
+                            <h3>
+                                1.256.353 €
+                            </h3>
+                            <p>Donado</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--Julsa-->
+            <article class="card">
+                <div class="card-image-container">
+                    <img class="card-image" src="./images/logos/julsa.png" title="Logotipo de Sarlim"
+                        alt="Logotipo de Sarlim">
+                </div>
+                <div class="card-info-container">
+                    <h2 class="card-title">
+                        Julsa
+                    </h2>
+                    <h3 class="card-description">
+                        Organización de acción médico-humanitaria: asistimos a personas amenazadas por conflictos
+                        armados, violencia o enfermedades.
+                    </h3>
+                    <div class="card-number-container">
+                        <div>
+                            <h3>
+                                234
+                            </h3>
+                            <p>Donaciones</p>
+                        </div>
+
+                        <div>
+                            <h3>
+                                1.256.353 €
+                            </h3>
+                            <p>Donado</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--placeholder-->
+            <article class="card">
+                <div class="card-image-container">
+                </div>
+                <div class="card-info-container">
+                    <div class="empty-card-title">
+                    </div>
+                    <div class="empty-card-description-row">
+                    </div>
+                    <div class="empty-card-description-row">
+                    </div>
+                    <div class="empty-card-description-half-row">
+                    </div>
+                    <div class="empty-separator"></div>
+                    <div class="card-number-container empty-card-number-container">
+                        <div class="empty-donations-container">
+                            <div class="empty-donations-number">
+                            </div>
+                            <div class="empty-donations-number-title">
+                            </div>
+                        </div>
+                        <div class="empty-donations-container">
+                            <div class="empty-donations-amount">
+                            </div>
+                            <div class="empty-donations-amount-title">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-image-container">
+                </div>
+                <div class="card-info-container">
+                    <div class="empty-card-title">
+                    </div>
+                    <div class="empty-card-description-row">
+                    </div>
+                    <div class="empty-card-description-row">
+                    </div>
+                    <div class="empty-card-description-half-row">
+                    </div>
+                    <div class="empty-separator"></div>
+                    <div class="card-number-container empty-card-number-container">
+                        <div class="empty-donations-container">
+                            <div class="empty-donations-number">
+                            </div>
+                            <div class="empty-donations-number-title">
+                            </div>
+                        </div>
+                        <div class="empty-donations-container">
+                            <div class="empty-donations-amount">
+                            </div>
+                            <div class="empty-donations-amount-title">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
     </main>
     <footer class="footer-container">
         <div class="footer-logo">
