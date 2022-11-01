@@ -5,123 +5,190 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Naiara Saratxaga" />
-    <meta name="description" content="This is the solution of a technical test" />
-    <title>Ongiving</title>
+    <meta name="author" content="Naiara Saratxaga">
+    <meta name="description" content="This is the solution of a technical test">
     <!-- favicon -->
-    <link rel="icon" type="image/svg" sizes="32x32" href="./images/logo.svg">
-    <!-- styles -->
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" type="image/svg" sizes="32x32" href="./images/favicon.svg">
+    <title>Ongiving</title>
     <!-- fonts -->
     <link rel="stylesheet" href="https://use.typekit.net/efi3wpw.css">
-
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
+    <header class="header-container">
+        <img class="header-icon" src="./images/logo.svg" title="Logotipo de Ongiving" alt="Logotipo de Ongiving">
+        <img class="header-menu" src="./images/menu.svg" title="Menú" alt="Menú">
+    </header>
 
-    <head>
-        <div class="menu__container">
-            <img src="./images/logo.svg" alt="logo">
-            <img src="./images/burguer.png" alt="menu burguer mobile" class="menu-mobile">
-        </div>
-    </head>
-    <main>
-        <nav class="menu__nav--expanded">
-            <ul class="menu__nav--items">
-                <li>
-                    <a href="#">Encuentra tu causa</a>
-                </li>
-                <li>
-                    <a href="#">Descubre</a>
-                </li>
-                <li>
-                    <a href="#">Voluntariado</a>
-                </li>
-                <li>
-                    <a href="#">ONGiving</a>
-                </li>
-                <li>
-                    <a href="#">Lupa</a>
-                </li>
-                <li>
-                    <a href="#">Accede</a>
-                </li>
-            </ul>
-            <button>Registrate</button>
-        </nav>
-
-
-        <!--      <section>
-            <div>
-                <p>Descubre</p>
-                <h1>Empresas</h1>
-                <p>Eres una empresa? Registrate</p>
-            </div>
-            <img src="./images/hero.png" alt="hero">
-        </section> -->
-        <section>
-            <p>Buscar una ONG o Institución</p>
-            <p>Filtrar</p>
+    <main class="main-container">
+        <!--Summary-->
+        <section class="main-summary">
+            <p><span class="results-amount">87</span> Resultados</p>
+            <p class="summary-featured">Destacados <img src="./images/anchor.svg"></p>
         </section>
-        <article>
-            <p>87 Resultados</p>
-            <p>Destacados > </p>
-            <section>
-                <div class="container-cards">
-                    <div class="card-style">
-                        <img src="./images/sarlim.png" alt="Logo Sarlim">
+        <!--Cards-->
+        <!--Sarlim-->
+        <article class="card">
+            <div class="card-image-container">
+                <img class="card-image" src="./images/logos/sarlim.png" title="Logotipo de Sarlim"
+                    alt="Logotipo de Sarlim">
+            </div>
+            <div class="card-info-container">
+                <h2 class="card-title">
+                    SARLIM Servicios integrales
+                </h2>
+                <h3 class="card-description">
+                    Organización de acción médico-humanitaria: asistimos a personas amenazadas por conflictos armados.
+                </h3>
+                <div class="card-number-container">
+                    <div>
+                        <h3>
+                            234
+                        </h3>
+                        <p>Donaciones</p>
                     </div>
-                    <h2 class="card-title">SARLIM Servicios integrales</h2>
-                    <p class="card-text">Organización de acción médico-humanitaria: asistimos a personas amenazadas por
-                        conflictos
-                        armados,
-                        violencia o enfermedades.</p>
-                    <p>linea</p>
-                    <p>234 Donaciones</p>
-                    <p>1.256.353 ¢ Donado</p>
 
+                    <div>
+                        <h3>
+                            1.256.353 €
+                        </h3>
+                        <p>Donado</p>
+                    </div>
                 </div>
-            </section>
+            </div>
+        </article>
+        <!--d.nest-->
+        <article class="card">
+            <div class="card-image-container">
+                <img class="card-image" src="./images/logos/dnest.svg" title="Logotipo de Sarlim"
+                    alt="Logotipo de Sarlim">
+            </div>
+            <div class="card-info-container">
+                <h2 class="card-title">
+                    DNest Digital Agency
+                </h2>
+                <h3 class="card-description">
+                    Organización de acción médico-humanitaria: asistimos a personas amenazadas por conflictos armados,
+                    violencia o enfermedades.
+                </h3>
+                <div class="card-number-container">
+                    <div>
+                        <h3>
+                            234
+                        </h3>
+                        <p>Donaciones</p>
+                    </div>
+
+                    <div>
+                        <h3>
+                            1.256.353 €
+                        </h3>
+                        <p>Donado</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!--Repsol-->
+        <article class="card">
+            <div class="card-image-container">
+                <img class="card-image" src="./images/logos/repsol.png" title="Logotipo de Sarlim"
+                    alt="Logotipo de Sarlim">
+            </div>
+            <div class="card-info-container">
+                <h2 class="card-title">
+                    Repsol
+                </h2>
+                <h3 class="card-description">
+                    Organización de acción médico-humanitaria: asistimos a personas amenazadas por conflictos armados,
+                    violencia o enfermedades.
+                </h3>
+                <div class="card-number-container">
+                    <div>
+                        <h3>
+                            234
+                        </h3>
+                        <p>Donaciones</p>
+                    </div>
+
+                    <div>
+                        <h3>
+                            1.256.353 €
+                        </h3>
+                        <p>Donado</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!--Julsa-->
+        <article class="card">
+            <div class="card-image-container">
+                <img class="card-image" src="./images/logos/julsa.png" title="Logotipo de Sarlim"
+                    alt="Logotipo de Sarlim">
+            </div>
+            <div class="card-info-container">
+                <h2 class="card-title">
+                    Julsa
+                </h2>
+                <h3 class="card-description">
+                    Organización de acción médico-humanitaria: asistimos a personas amenazadas por conflictos armados,
+                    violencia o enfermedades.
+                </h3>
+                <div class="card-number-container">
+                    <div>
+                        <h3>
+                            234
+                        </h3>
+                        <p>Donaciones</p>
+                    </div>
+
+                    <div>
+                        <h3>
+                            1.256.353 €
+                        </h3>
+                        <p>Donado</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!--placeholder-->
+        <article class="card">
+            <div class="card-image-container">
+            </div>
+            <div class="card-info-container">
+                <div class="empty-card-title">
+                </div>
+                <div class="empty-card-description-row">
+                </div>
+                <div class="empty-card-description-row">
+                </div>
+                <div class="empty-card-description-half-row">
+                </div>
+                <div class="empty-separator"></div>
+                <div class="card-number-container empty-card-number-container">
+                    <div class="empty-donations-container">
+                        <div class="empty-donations-number">
+                        </div>
+                        <div class="empty-donations-number-title">
+                        </div>
+                    </div>
+                    <div class="empty-donations-container">
+                        <div class="empty-donations-amount">
+                        </div>
+                        <div class="empty-donations-amount-title">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </article>
     </main>
-    <footer class="footer">
-        <div class="logo">
-            <img src="./images/logo_footer.svg" alt="logo">
+    <footer class="footer-container">
+        <div class="footer-logo">
+            <img src="./images/logo_footer.svg" title="Logotipo de Ongiving" alt="Logotipo de Ongiving">
         </div>
-
-        <ul>
-            <li>ÚNETE</li>
-            <li>Soy una ONG</li>
-            <li>Soy una empresa</li>
-            <li>Soy un voluntario</li>
-            <li>Soy un donante</li>
-        </ul>
-        <ul>
-            <li>NOSOTROS</li>
-            <li>Quienes somos</li>
-            <li>Cómo funciona</li>
-            <li>Contáctanos</li>
-            <li>Calculadora fiscal</li>
-        </ul>
-        <ul>
-            <li>AYUDA</li>
-            <li>Como funciona</li>
-            <li>Soporte</li>
-            <li>FAQS</li>
-        </ul>
-        <ul>
-            <li>LEGALES</li>
-            <li>Politica de privacidad</li>
-            <li>Términos y condiciones</li>
-            <li>Política de cookies</li>
-        </ul>
-        <p>line</p>
-        <span>©ONGiving 2022. Todos los derechos reservados.</span>
-        <img src="./images/facebook.png" alt="icon facebook">
-        <img src="./images/tuiter.svg" alt="icon twiter">
-        <img src="./images/facebook.png" alt="icon facebook">
     </footer>
+
 </body>
 
 </html>
