@@ -10,6 +10,7 @@
   --blue-grey: #eff5f9;
   --blue-sky: #e3f3ff;
   --cta-green: #68d3b5;
+  --cta-green-dark: #337357;
 }
 
 body {
@@ -75,16 +76,18 @@ a {
 
 .register-cta {
   margin: -0.625rem;
+  transition: background-color 1000ms linear;
   background-color: var(--cta-green);
   border: 0;
   color: white;
   border-radius: 0.5rem;
   padding: 0.75rem 1rem;
+  cursor: pointer;
 }
 
 .register-cta:hover {
   transition: background-color 1000ms linear;
-  background-color: var(--cta-green);
+  background-color: var(--cta-green-dark);
 }
 
 .header-menu {
